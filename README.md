@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <img src="assets/logo.png" alt="Markdownify" width="200"></a>
+  <img src="assets/InfiMM-Eval-logo.png" alt="Markdownify" width="200"></a>
   <br>
-  CORE-MM
+  InfiMM-Eval
   <br>
 </h1>
 
@@ -15,11 +15,11 @@
   <a href="https://arxiv.org/abs/2311.11567">
     <img src="https://img.shields.io/badge/arXiv-2311.11567-b31b1b.svg">
   </a>
-  <a href="https://huggingface.co/datasets/Infi-MM/CORE-MM">
+  <a href="https://huggingface.co/datasets/Infi-MM/InfiMM-Eval">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-blue">
   </a>
   <a href="https://paperswithcode.com/sota/visual-question-answering-vqa-on-core-mm">
-      <img src="https://img.shields.io/badge/CORE--MM-Leaderboard-%2321b3b6.svg?logo=data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweFwiIHk9IjAiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGU+LnN0MHtmaWxsOiMyMWYwZjN9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNODggMTI4aDQ4djI1Nkg4OFYxMjh6bTE0NCAwaDQ4djI1NmgtNDhWMTI4em0tNzIgMTZoNDh2MjI0aC00OFYxNDR6bTE0NCAwaDQ4djIyNGgtNDhWMTQ0em03Mi0xNmg0OHYyNTZoLTQ4VjEyOHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTA0IDEwNFY1NkgxNnY0MDBoODh2LTQ4SDY0VjEwNGg0MHptMzA0LTQ4djQ4aDQwdjMwNGgtNDB2NDhoODhWNTZoLTg4eiIvPjwvc3ZnPg==">
+      <img src="https://img.shields.io/badge/InfiMM--Eval-Leaderboard-%2321b3b6.svg?logo=data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweFwiIHk9IjAiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGU+LnN0MHtmaWxsOiMyMWYwZjN9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNODggMTI4aDQ4djI1Nkg4OFYxMjh6bTE0NCAwaDQ4djI1NmgtNDhWMTI4em0tNzIgMTZoNDh2MjI0aC00OFYxNDR6bTE0NCAwaDQ4djIyNGgtNDhWMTQ0em03Mi0xNmg0OHYyNTZoLTQ4VjEyOHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTA0IDEwNFY1NkgxNnY0MDBoODh2LTQ4SDY0VjEwNGg0MHptMzA0LTQ4djQ4aDQwdjMwNGgtNDB2NDhoODhWNTZoLTg4eiIvPjwvc3ZnPg==">
   </a>
 </p>
 
@@ -48,7 +48,7 @@ The leaderboard can be found via [<img
                           src="https://info.arxiv.org/labs/images/pwc-logo.png"
                           width="15px"
                           height="15px"
-                        />Papers with Code](https://paperswithcode.com/sota/visual-question-answering-vqa-on-core-mm) or [project page](https://core-mm.github.io/).
+                        />Papers with Code](https://paperswithcode.com/sota/visual-question-answering-vqa-on-core-mm) or [project page](https://infimm.github.io/InfiMM-Eval/).
 
 ## Download
 
@@ -56,17 +56,17 @@ Images and Questions can be downloaded [<img
                           src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
                           width="15px"
                           height="15px"
-                        />here](https://huggingface.co/datasets/Infi-MM/CORE-MM).
+                        />here](https://huggingface.co/datasets/Infi-MM/InfiMM-Eval).
 
 ## Evaluation
 
-To evaluate on our CORE-MM Benchmark, please follow below steps:
+To evaluate on our InfiMM-Eval Benchmark, please follow below steps:
 
 ### Step 0: [Download Images and Questions](#download)
 
 ### Step 1: Generate Response for Your Model
 
-Generate responses for your model on the CORE-MM dataset. The response should be a json file with the following format:
+Generate responses for your model on the InfiMM-Eval dataset. The response should be a json file with the following format:
 
 ```json
 {
@@ -104,7 +104,7 @@ We will evaluate your model and send you the results back.
 
 ```latex
 @misc{han2023coremm,
-      title={CORE-MM: Complex Open-Ended Reasoning Evaluation For Multi-Modal Large Language Models},
+      title={InfiMM-Eval: Complex Open-Ended Reasoning Evaluation For Multi-Modal Large Language Models},
       author={Xiaotian Han and Quanzeng You and Yongfei Liu and Wentao Chen and Huangjie Zheng and Khalil Mrini and Xudong Lin and Yiqi Wang and Bohan Zhai and Jianbo Yuan and Heng Wang and Hongxia Yang},
       year={2023},
       eprint={2311.11567},
